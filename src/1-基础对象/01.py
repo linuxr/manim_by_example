@@ -1,5 +1,22 @@
 # 1. 🔲 基础对象：几何图形: 01-点
-from manim import *
+from manim import (
+    BLUE,
+    DOWN,
+    GREEN,
+    LEFT,
+    PURPLE,
+    RED,
+    RIGHT,
+    UP,
+    YELLOW,
+    AnnotationDot,
+    Create,
+    Dot,
+    LabeledDot,
+    MathTex,
+    Scene,
+    Text,
+)
 
 
 class DotExample(Scene):

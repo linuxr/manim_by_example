@@ -1,5 +1,23 @@
 # 1. 🔲 基础对象：几何图形: 02-直线类
-from manim import *
+from manim import (
+    BLUE,
+    DOWN,
+    GREEN,
+    LEFT,
+    PURPLE,
+    RED,
+    RIGHT,
+    UP,
+    WHITE,
+    YELLOW,
+    Circle,
+    Create,
+    DashedLine,
+    LabeledLine,
+    Line,
+    Scene,
+    TangentLine,
+)
 
 
 class LineExample(Scene):
